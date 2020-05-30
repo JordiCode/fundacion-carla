@@ -1,13 +1,13 @@
 {
-    "title": "Amigos de Noel",
-    "Vision" : "Ayudando a los niños especiales de escasos recursos",
+	"title": "Amigos de Noel",
+	"Vision": "Ayudando a los niños especiales de escasos recursos",
 
+	"btn_about": "Acerca de Nosotros",
 
-
-    "goals": "Metas",
-    "goals-meta1-title": "Cumplir un propósito de Dios",
-    "goals-meta1-p1": "L",
-    "goals-meta1-p2": "K",
-
-    "goals-meta2-title": "Llevar la ayuda y solución a las familias especiales"
+	"goals": "Metas",
+	"goals-meta1-title": "Cumplir un propósito de Dios",
+	"goals-meta1-p1": "Queremos cumplir con Dios y amar a nuestro prójimo como a nosotros mismos. Acomparlos y guiarlos en todo momento",
+	"goals-meta1-p2": "Llevar paz a esas personas que han pasado por las mismas situaciones que nosotros en algún momento.",
+	
+	"goals-meta2-title": "Llevar la ayuda y solución a las familias especiales"
 }

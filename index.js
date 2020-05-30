@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname, 'views')));
 // Configuración multilenguaje.
 i18n.configure({
     locales:['en','es'],
-	defaultLocale: 'en',
+	defaultLocale: 'es',
     register: global,
     directory: __dirname + '/locales'
 })
