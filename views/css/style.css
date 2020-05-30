@@ -1,0 +1,246 @@
+@font-face{
+    font-family: 'ChelseaMarket';
+    src: url('../assets/fonts/ChelseaMarket-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'body';
+    src: url('../assets/fonts/Poppins-Regular.ttf')
+}
+
+html, body{font-family: 'body';scroll-behavior: smooth;margin:0;padding:0}
+
+a{color: #ffffff}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    color: #212121;
+    transition: .2s linear all
+}
+
+.header_son{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header_son > nav > ul > li > a{color: #212121}
+
+.header_son > .logo > svg{height: 85px;width:auto;margin-left: .5rem}
+
+
+.with_down .header_son:not(.down) > nav > ul > li > a{color: #ffffff}
+
+.with_down .header.down{background-color: #F4F6F7}
+.with_down .header.down nav > ul > li > a{color: #070707}
+
+.with_down .header_son:not(.down) svg *:not(#Heart){fill: #ffffff}
+.with_down .header_son:not(.down) svg #Circle{stroke: #ffffff;fill: transparent!important}
+
+.with_down .header.down svg *:not(#Heart){fill: #070707}
+.with_down .header.down svg #Circle{stroke: #070707;fill: transparent!important}
+
+
+.noel {
+    height: 1400px;
+    max-width: 1440px;
+    background: url('../img/background.jpg') no-repeat center;
+    background-size: 100% 1400px
+}
+
+.noel > h1, h2, h3{font-family: 'ChelseaMarket'}
+
+.goals {
+    position: relative;
+    top: -140px
+}
+.goals > h2{color: #ffffff}
+.goals h3{color: #e19421}
+
+.goals .goal_box{
+    background-color: #f4f6f7;
+    color: #4f4f4f;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: -4px -2px 30px 5px rgba(0, 0, 0, 0.25)}
+
+.goals .goal_box h3{text-align: center;padding-bottom: 1rem}
+
+.info {
+    grid-area: info;
+}
+
+.info > .cards{padding-bottom: 3rem}
+
+.info > .cards h3{font-size: 2rem}
+
+.card {
+    padding: 0 1rem;
+    margin: 0 4rem;
+    width: 30%;
+    height: fit-content;
+    position: relative;
+    background: #583c3c;  /* fallback for old browsers */
+    background: linear-gradient(to bottom, #ffffff, #ffffff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card h4{color: #a9a9a9}
+
+.card .card_text, .card .history {
+    width: 105%;
+    position: relative;
+    padding: 1rem
+}
+
+.card .card_text {
+    height: fit-content;
+    background-color: #F4F6F7;
+    left: -65px;
+    top: 1.5rem;
+    z-index: 2
+}
+
+.card .history {
+    height: fit-content;
+    background-color: #3f44a2;
+    color: #fbfbfb;
+    top: 70px;
+    right: -45px;
+    text-align: center;
+    z-index: 1
+}
+
+#colaboration{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    padding-bottom: 5rem
+}
+
+#colaboration > h2{margin: 2rem 0}
+
+#colaboration > .donation, #colaboration > .team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 2rem;
+    border-radius: 1rem 0 1rem 0;
+    color: #ffffff;
+    font-size: 1.2rem
+}
+
+#colaboration > .donation > h3, #colaboration > .team > h3{
+    margin-bottom: 2rem;
+    color: #ffffff;
+    font-weight: bold
+}
+
+
+#colaboration > .donation{
+    align-items: flex-start;
+    margin: 1rem auto 1rem 0;
+    background: linear-gradient(to bottom, #f48a8a, #f48a8aa8);
+    padding-bottom: 3rem
+}
+
+#colaboration > .team{
+    align-items: flex-end;
+    margin: 1rem 0 1rem auto;
+    padding-top: 3rem;
+    background: linear-gradient(to top, #9589f5, #9589f5a8)
+}
+
+.team li, .donation li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0
+}
+
+.team li a, .donation li a{
+    display: block;
+    padding: 1rem;
+    border-radius: 15px
+}
+
+.team li a{background: #2a2742}
+.donation li a{background-color: #dc6767}
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #3f89a2cf
+}
+
+.footer > *{padding: 2rem 0;width: 33.3333%;text-align: center}
+
+.footer > .left{color: #ffffff;font-size: 1.2rem}
+
+.footer > .middle > .socials{list-style: none;padding: 0;display: flex;justify-content: center}
+
+.footer > .middle > .socials > li{
+    padding: .7rem;
+    background-color: #ffffff;
+    border-radius: 100%;
+    margin: 0 1rem
+}
+
+.footer > .middle > .socials > li > a > svg{
+    width: 40px;
+    height: 40px;
+    transition: .2s transform linear;
+}
+
+.facebook > a > svg{fill: #4b5ec8}
+.instagram > a > svg{fill: #e27033}
+.twitter > a > svg{fill: #639fb3}
+
+a:hover > svg{transform: scale(1.05)}
+
+.footer > .right > .legal > li > a{
+    display: block;
+    width: 100%;
+    padding: .8rem;
+    color: #ffffff
+}
+
+.footer > .right > .legal > li > a:hover{background-color: #3f89a235}
+
+@media screen and (max-width: 1000px) {
+    /* Historias responsivas */
+    .info .cards{
+        flex-direction: column
+    }
+    .info .cards > .card{width: 90%;margin: 0 auto;padding-bottom: 3rem}
+    .info .cards > .card .card_text{left: -30px}
+    .info .cards > .card .history{right: -8px;top: 12px;z-index: 2}
+}
+
+@media screen and (max-width: 768px) {
+    .header{background-color: #F4F6F7}
+    .header_son svg *:not(#Heart){fill: #070707!important}
+    .header_son svg #Circle{stroke: #070707!important;fill: transparent!important}
+    .header_son{padding: 0}
+    /* Noel responsivo */
+    .noel{padding: 0 1rem;text-align: center}
+    /* Metas responsivas */
+    .goals{top:0 }
+    .goals > .flex{flex-direction: column}
+    .goals .goal_box{box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.15);border-radius: 0}
+    .goals .goal_box:first-child{border-radius: 1rem 1rem 0 0}
+    .goals .goal_box:last-child{border-radius: 0 0 1rem 1rem}
+
+    /* Colaboration responsive */
+    #colaboration > .donation, #colaboration > .team{width: 100%}
+    #colaboration > .donation{background: linear-gradient(to right, #f48a8a, #f48a8a70)}
+    #colaboration > .team{background: linear-gradient(to left, #9589f5, #9589f570)}
+    /* Footer */
+    .footer{flex-direction: column}
+    .footer > *{width: 85%}
+}
