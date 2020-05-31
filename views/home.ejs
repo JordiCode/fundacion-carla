@@ -34,60 +34,59 @@
             </div>
             <div class="goal_box flex-1 p-5 mx-5 my-2">
                 <h3 class="text-gray-100 text-2xl"><%= i18n.__('goals-meta2-title') %></h3>
-                <p class="text-justify">Queremos darles la ayuda a ésas familias que la necesitan, visitar a los niños en las casas y hospitales para ofrendarles los recursos que necesiten.</p>
+                <p class="text-justify"><%= i18n.__('goals-meta2-p') %></p>
             </div>
             <div class="goal_box flex-1 p-5 mx-5 my-2">
-                <h3 class="text-2xl">Innovar y encontrar la mejor manera de ayudar</h3>
-                <p class="text-justify">Queremos hacer feliz a un niño cada día, por lo tanto, buscaremos los mejores medios para que esto sea posible y así disfrutar de la alegría en el rostro de esos pequeños.</p>
+                <h3 class="text-2xl"><%= i18n.__('goals-meta3-title') %></h3>
+                <p class="text-justify"><%= i18n.__('goals-meta3-p') %></p>
             </div>
         </div>
     </section>
 
     <!-- Info -->
     <section class="info bg-gray-200">
-        <h2 class="text-5xl text-right mr-5 mb-5">Historias</h2>
+        <h2 class="text-5xl text-right mr-5 mb-5"><%= i18n.__('History') %></h2>
         <div class="cards flex">
             <div class="card flex-1 rounded-md">
-                <h3 class="mt-5 text-center">Una madre especial</h3>
+                <h3 class="mt-5 text-center"><%= i18n.__('h-1-title') %></h3>
                 <!-- Texto -->
                 <div class="card_text shadow-2xl  rounded-md">
                     <p>
-                        Ser madre de un niño con discapacidad significa estar dispuesta a todo.<br><br>
-                        Estar dispuesta a vivir en un mundo paralelo, en el que tú ves el mundo de los demás, pero los demás parecen no ver, no querer ver o no querer comprender el tuyo.<br><br>
+                        <%= i18n.__('h-1-p1') %><br><br>
+                        <%= i18n.__('h-1-p12') %><br><br>
                     </p>
                     <p>
-                        Es nuestra naturaleza como madres darles calor a nuestros hijos para que entiendan que no están solos en el mundo, y luchamos cada día para que sean felices, ofreciéndoles todo lo que somos para conseguirlo.
+                        <%= i18n.__('h-1-p2') %>
                     </p>
                 </div>
-
                 <!-- History -->
                 <div class="history shadow-2xl  rounded-md">
-                    ¡Tu también puedes ser parte de esto!
+                    <%= i18n.__('h-1-legend') %>
                 </div>
             </div>
 
             <div class="card flex-1 rounded-md">
-                <h3 class="mt-5 text-center">Carla Urena</h3>
-                <h4 class="text-center">Fundadora de <strong>Amigos de Noel</strong></h4>
+                <h3 class="mt-5 text-center"><%= i18n.__('h-2-title') %></h3>
+                <h4 class="text-center"><%- i18n.__('h-2-fund') %></h4>
                 <!-- Texto -->
                 <div class="card_text shadow-2xl  rounded-md">
                     <p>
-                        Soy la madre del pequeño y hermoso Noel, desde que nació vi que DIOS tenia un propósito conmigo y era el de convertirme en la esperanza de los niños como noel.<br><br>
+                        <%- i18n.__('h-2-p1') %>
                     </p>
                     <p>
-                        Los niños especiales necesitan mas que un lugar donde vivir, necesitan muchísimo amor, ellos no decidieron nacer así, es el momento en que debemos estar mas unidos a ellos y mostrarles una perspectiva maravillosa del mundo.<br><br>
+                        <%- i18n.__('h-2-p2') %>
                     </p>
                     <p>
-                        Ese es el origen de "Amigos de Noel", es mi iniciativa como madre poder ayudar a los niños especiales y enseñarle a las familias como cuidar de ellos, para que nunca se sientan solos y tengan una hermosa sonrisa siempre.<br><br>
+                        <%- i18n.__('h-2-p3') %>
                     </p>
                     <p>
-                        Es grandiosa la satisfacción que se siente cuando un pequeño esta siendo feliz gracias a ti, el momento en el que te convierte en el mejor amigo de ese pequeño, en el que te conviertes en su héroe.
+                        <%= i18n.__('h-2-p4') %>
                     </p>
                 </div>
 
                 <!-- History -->
                 <div class="history shadow-2xl  rounded-md">
-                    ¡Tu también puedes ser su héroe!
+                    <%= i18n.__('h-2-legend') %>
                 </div>
             </div>
 
@@ -95,29 +94,29 @@
                 <h3 class="mt-5 text-center">Noel</h3>
                 <!-- Texto -->
                 <div class="card_text shadow-2xl  rounded-md">
-                    <p>Noel es  un pequeño que nació con un caso especial que ha afectado aspectos fundamentales en su vida.<br><br></p>
+                    <p><%- i18n.__('h-3-p1') %></p>
                     <p>
-                        Pero a pesar de su condición siempre ha sido un niño muy contento, le gusta muchísimo la música y  jugar con sus amigos, aunque el no pueda expresar lo que siente con palabras, su rostro y su sonrisa demuestran tantas cosas de cómo es él.<br><br>
+                        <%- i18n.__('h-3-p2') %>
                     </p>
                     <p>
-                        Es muy hermosa la forma en la visualiza el mundo a pesar de su situación, es algo muy admirable, ser amigo de Noel le puede cambia la vida a cualquiera porque es un niño que te contagia de su felicidad.<br><br>
+                        <%- i18n.__('h-3-p3') %>
                     </p>
                 </div>
 
                 <!-- History -->
                 <div class="history shadow-2xl  rounded-md">
-                    ¡Juntos somos más fuertes!
+                    <%= i18n.__('h-3-legend') %>
                 </div>
             </div>
         </div>
     </section>
     <!-- Colaboración -->
     <section id="colaboration">
-        <h2 class="ml-5 text-5xl">¿Cómo colaborar con "Amigos de Noel"?</h2>
+        <h2 class="ml-5 text-5xl"><%- i18n.__('colaboration-title') %></h2>
         <div class="donation">
-            <h3 class="text-2xl">Donación</h3>
+            <h3 class="text-2xl"><%= i18n.__('donation') %></h3>
             <p>
-                Ayúdanos a llevar la ayuda a ésas familias que lo necesitan,<br>ofrenda lo que nazca de tu corazón:
+                <%- i18n.__('donation-content') %>
                 <ul>
                     <li>
                         <a href="#">Paypal</a>
@@ -126,11 +125,11 @@
             </p>
         </div>
         <div class="team">
-            <h3 class="text-2xl">Equipo</h3>
+            <h3 class="text-2xl"><%= i18n.__('team') %></h3>
             <p>
-                Tú también puedes ser parte de esto. Si quieres colaborar con nuestras obras y unirte al equipo puedes contactarnos por medio de:
+                <%- i18n.__('team-content') %>
                 <ul>
-                    <li><a href="mailto:contacto@amigosdenoel.com">contacto@amigosdenoel.com</a></li>
+                    <li><a href="mailto:<%= i18n.__('email-contact') %>"><%= i18n.__('email-contact') %></a></li>
                     <li>Whatsapp: <a href="tel:3478248365">+1 347 824 8365</a></li>
                 </ul>
             </p>

@@ -45,10 +45,11 @@ a{color: #ffffff}
 
 
 .noel {
-    height: 1400px;
-    max-width: 1440px;
+    height: 108vh;
+    max-width: 100%;
     background: url('../img/background.jpg') no-repeat center;
-    background-size: 100% 1400px
+    background-color: #261405;
+    background-size: 100% 108%
 }
 
 .noel > h1, h2, h3{font-family: 'ChelseaMarket'}
@@ -78,7 +79,7 @@ a{color: #ffffff}
 
 .card {
     padding: 0 1rem;
-    margin: 0 4rem;
+    margin: 0 3rem;
     width: 30%;
     height: fit-content;
     position: relative;
@@ -97,7 +98,7 @@ a{color: #ffffff}
 .card .card_text {
     height: fit-content;
     background-color: #F4F6F7;
-    left: -65px;
+    left: -45px;
     top: 1.5rem;
     z-index: 2
 }
@@ -107,7 +108,7 @@ a{color: #ffffff}
     background-color: #3f44a2;
     color: #fbfbfb;
     top: 70px;
-    right: -45px;
+    right: -25px;
     text-align: center;
     z-index: 1
 }
@@ -223,10 +224,11 @@ a:hover > svg{transform: scale(1.05)}
 }
 
 @media screen and (max-width: 768px) {
-    .header{background-color: #F4F6F7}
+    .header{background-color: #F4F6F7;padding: 0!important}
     .header_son svg *:not(#Heart){fill: #070707!important}
     .header_son svg #Circle{stroke: #070707!important;fill: transparent!important}
     .header_son{padding: 0}
+    .with_down .header_son:not(.down) > nav > ul > li > a{color: #070707}
     /* Noel responsivo */
     .noel{padding: 0 1rem;text-align: center}
     /* Metas responsivas */
@@ -237,10 +239,15 @@ a:hover > svg{transform: scale(1.05)}
     .goals .goal_box:last-child{border-radius: 0 0 1rem 1rem}
 
     /* Colaboration responsive */
-    #colaboration > .donation, #colaboration > .team{width: 100%}
-    #colaboration > .donation{background: linear-gradient(to right, #f48a8a, #f48a8a70)}
-    #colaboration > .team{background: linear-gradient(to left, #9589f5, #9589f570)}
+    #colaboration > .donation, #colaboration > .team{width: 100%;font-size: 1rem;padding: 1rem}
+    #colaboration, #colaboration{padding: 0rem}
+    #colaboration > h2{text-align: center}
+    #colaboration > .donation{background: linear-gradient(to right, #f48a8a, #f48a8a70);border-radius: 0}
+    #colaboration > .team{background: linear-gradient(to left, #9589f5, #9589f570);border-radius: 0}
+    .team li a, .donation li a{padding: .7rem}
     /* Footer */
     .footer{flex-direction: column}
     .footer > *{width: 85%}
+    /* */
+    .text-5xl{font-size: 2.7rem}
 }

@@ -17,6 +17,7 @@ app.set('view engine', 'ejs')
 
 // Middleware
 app.use(express.static(path.join(__dirname, 'views')));
+app.set('trust proxy', true)
 
 // Configuración multilenguaje.
 i18n.configure({
@@ -29,8 +30,13 @@ i18n.configure({
 /* 
     ** Rutas
 */
+const getLang = (ip) => {
+
+}
+
 // Principal.
 app.get('/', (req, res) => {
+    const lang = getLang()
     res.render('home', {i18n})
 })
 

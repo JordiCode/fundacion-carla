@@ -3,11 +3,51 @@
 	"Vision": "Ayudando a los niños especiales de escasos recursos",
 
 	"btn_about": "Acerca de Nosotros",
-
+	"language": "English",
+	"alternative-web": "/",
+	
 	"goals": "Metas",
 	"goals-meta1-title": "Cumplir un propósito de Dios",
-	"goals-meta1-p1": "Queremos cumplir con Dios y amar a nuestro prójimo como a nosotros mismos. Acomparlos y guiarlos en todo momento",
+	"goals-meta1-p1": "Queremos cumplir con Dios y amar a nuestro prójimo como a nosotros mismos, acompañarlos y guiarlos en todo momento.",
 	"goals-meta1-p2": "Llevar paz a esas personas que han pasado por las mismas situaciones que nosotros en algún momento.",
 	
-	"goals-meta2-title": "Llevar la ayuda y solución a las familias especiales"
+	"goals-meta2-title": "Llevar la ayuda y solución a las familias especiales",
+	"goals-meta2-p": "Queremos darles la ayuda a ésas familias que la necesitan, visitar a los niños en las casas y hospitales para ofrendarles los recursos que necesiten.",
+
+	"goals-meta3-title": "Innovar y encontrar la mejor manera de ayudar",
+	"goals-meta3-p": "Queremos hacer feliz a un niño cada día, por lo tanto, buscaremos los mejores medios para que esto sea posible y así disfrutar de la alegría en el rostro de esos pequeños.",
+
+	"History": "Historias",
+	"h-1-title": "Una madre especial",
+	"h-1-p1": "Ser madre de un niño con discapacidad significa estar dispuesta a todo.",
+	"h-1-p12": "Estar dispuesta a vivir en un mundo paralelo, en el que tú ves el mundo de los demás, pero los demás parecen no ver, no querer ver o no querer comprender el tuyo.",
+	"h-1-p2": "Es nuestra naturaleza como madres darles calor a nuestros hijos para que entiendan que no están solos en el mundo, y luchamos cada día para que sean felices, ofreciéndoles todo lo que somos para conseguirlo.",
+	"h-1-legend": "¡Tu también puedes ser parte de esto!",
+
+	"h-2-title": "Carla Urena",
+	"h-2-fund": "Fundadora de <strong>Amigos de Noel</strong>",
+	"h-2-p1": "Soy la madre del pequeño y hermoso Noel, desde que nació vi que DIOS tenia un propósito conmigo y era el de convertirme en la esperanza de los niños como noel.<br><br>",
+	"h-2-p2": "Los niños especiales necesitan mas que un lugar donde vivir, necesitan muchísimo amor, ellos no decidieron nacer así, es el momento en que debemos estar mas unidos a ellos y mostrarles una perspectiva maravillosa del mundo.<br><br>",
+	"h-2-p3": "Ese es el origen de \"Amigos de Noel\", es mi iniciativa como madre poder ayudar a los niños especiales y enseñarle a las familias como cuidar de ellos, para que nunca se sientan solos y tengan una hermosa sonrisa siempre.<br><br>",
+	"h-2-p4": "Es grandiosa la satisfacción que se siente cuando un pequeño esta siendo feliz gracias a ti, el momento en el que te convierte en el mejor amigo de ese pequeño, en el que te conviertes en su héroe.",
+	"h-2-legend": "¡Tu también puedes ser su héroe!",
+
+	"h-3-title": "Noel",
+	"h-3-p1": "Noel es  un pequeño que nació con un caso especial que ha afectado aspectos fundamentales en su vida.<br><br>",
+	"h-3-p2": "Pero a pesar de su condición siempre ha sido un niño muy contento, le gusta muchísimo la música y  jugar con sus amigos, aunque el no pueda expresar lo que siente con palabras, su rostro y su sonrisa demuestran tantas cosas de cómo es él.<br><br>",
+	"h-3-p3": "Es muy hermosa la forma en la visualiza el mundo a pesar de su situación, es algo muy admirable, ser amigo de Noel le puede cambia la vida a cualquiera porque es un niño que te contagia de su felicidad.<br><br>",
+	"h-3-legend": "¡Juntos somos más fuertes!",
+
+	"colaboration-title": "¿Cómo colaborar con \"<strong>Amigos de Noel</strong>\"?",
+	"donation": "Donación",
+	"donation-content": "Ayúdanos a llevar la ayuda a ésas familias que lo necesitan,<br>ofrenda lo que nazca de tu corazón:",
+	
+	"team": "Equipo",
+	"team-content": "Tú también puedes ser parte de esto. Si quieres colaborar con nuestras obras y unirte al equipo puedes contactarnos por medio de:",
+
+	"email-contact": "contacto@amigosdenoel.com",
+
+	"footer-btn1": "Acerca de nosotros",
+	"footer-btn2": "Política de privacidad",
+	"footer-btn3": "Política de cookies"
 }
