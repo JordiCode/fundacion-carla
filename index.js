@@ -31,12 +31,12 @@ i18n.configure({
     ** Rutas
 */
 const getLang = (ip) => {
-
+    return ip
 }
 
 // Principal.
 app.get('/', (req, res) => {
-    const lang = getLang()
+    const lang = getLang("ip")
     res.render('home', {i18n})
 })
 
