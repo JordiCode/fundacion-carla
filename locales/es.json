@@ -33,8 +33,8 @@
 	"h-2-legend": "¡Tu también puedes ser su héroe!",
 
 	"h-3-title": "Noel",
-	"h-3-p1": "Noel es  un pequeño que nació con un caso especial que ha afectado aspectos fundamentales en su vida.<br><br>",
-	"h-3-p2": "Pero a pesar de su condición siempre ha sido un niño muy contento, le gusta muchísimo la música y  jugar con sus amigos, aunque el no pueda expresar lo que siente con palabras, su rostro y su sonrisa demuestran tantas cosas de cómo es él.<br><br>",
+	"h-3-p1": "Noel es un pequeño que nació con un caso especial que ha afectado aspectos fundamentales en su vida.<br><br>",
+	"h-3-p2": "Pero a pesar de su condición siempre ha sido un niño muy contento, le gusta muchísimo la música y jugar con sus amigos, aunque él no pueda expresar lo que siente con palabras, su rostro y su sonrisa demuestran tantas cosas de cómo es él.<br><br>",
 	"h-3-p3": "Es muy hermosa la forma en la visualiza el mundo a pesar de su situación, es algo muy admirable, ser amigo de Noel le puede cambia la vida a cualquiera porque es un niño que te contagia de su felicidad.<br><br>",
 	"h-3-legend": "¡Juntos somos más fuertes!",
 
@@ -49,5 +49,9 @@
 
 	"footer-btn1": "Acerca de nosotros",
 	"footer-btn2": "Política de privacidad",
-	"footer-btn3": "Política de cookies"
+	"footer-btn3": "Política de cookies",
+
+	"lang": "es",
+	"lang-alt": "en",
+	"home-alt": "/"
 }

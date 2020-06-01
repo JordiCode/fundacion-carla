@@ -1,53 +1,57 @@
 {
     "title": "Noel's Friends",
-    "Vision" : "Helpineg a los niños especiales de escasos recursos",
+    "Vision" : "Helping special low-income children",
 
     "btn_about": "About Us",
     "language": "Español",
 	"alternative-web": "/es",
 
     "goals": "Goals",
-    "goals-meta1-title": "Cumplir un propósito de God",
-    "goals-meta1-p1": "Queremos cumplir con Dios y amar a nuestro prójimo como a nosotros mismos, acompañarlos y guiarlos en todo momento.",
-    "goals-meta1-p2": "Llevar paz a esas personas que han pasado por las mismas situaciones que nosotros en algún momento.",
+	"goals-meta1-title": "Fulfill a purpose of God",
+	"goals-meta1-p1": "We want to fulfill God and love our neighbor as ourselves, accompany and guide them at all times.",
+	"goals-meta1-p2": "Bring peace to those people who have been through the same situations as us at some point.",
+	
+    "goals-meta2-title": "Bring help and solution to special families",
+	"goals-meta2-p": "We want to give aid to those families who need it, visit children in homes and hospitals to offer them the resources they need.",
 
-    "goals-meta2-title": "Llevar la help y solución a las familys especiales",
-	"goals-meta2-p": "Queremos darles la ayuda a ésas familias que la necesitan, visitar a los niños en las casas y hospitales para ofrendarles los recursos que necesiten.",
-
-	"goals-meta3-title": "Innovar y encontrar la mejor manera de ayudar",
-	"goals-meta3-p": "Queremos hacer feliz a un niño cada día, por lo tanto, buscaremos los mejores medios para que esto sea posible y así disfrutar de la alegría en el rostro de esos pequeños.",
+	"goals-meta3-title": "Innovate and find the best way to help",
+	"goals-meta3-p": "We want to make a child happy every day, therefore, we will seek the best means to make this possible and thus enjoy the joy on the faces of those little ones.",
 
     "History": "Historys",
-	"h-1-title": "Una mother especial",
-	"h-1-p1": "Ser madre de un niño con discapacidad significa estar dispuesta a todo.",
-	"h-1-p12": "Estar dispuesta a vivir en un mundo paralelo, en el que tú ves el mundo de los demás, pero los demás parecen no ver, no querer ver o no querer comprender el tuyo.",
-	"h-1-p2": "Es nuestra naturaleza como madres darles calor a nuestros hijos para que entiendan que no están solos en el mundo, y luchamos cada día para que sean felices, ofreciéndoles todo lo que somos para conseguirlo.",
-	"h-1-legend": "¡Tu también puedes ser parte de esto!",
+	"h-1-title": "A special mother",
+	"h-1-p1": "Being a mother of a child with a disability means being willing to do anything.",
+	"h-1-p12": "Be willing to live in a parallel world, in which you see the world of others, but others seem not to see, not want to see or not want to understand yours.",
+	"h-1-p2": "It is our nature as mothers to warm our children so that they understand that they are not alone in the world, and we fight every day to make them happy, offering them all that we are to achieve it.",
+	"h-1-legend": "You too can be part of this!",
 
 	"h-2-title": "Carla Urena",
-	"h-2-fund": "Fundadora de <strong>Amigos de Noel</strong>",
-	"h-2-p1": "Soy la madre del pequeño y hermoso Noel, desde que nació vi que DIOS tenia un propósito conmigo y era el de convertirme en la esperanza de los niños como noel.<br><br>",
-	"h-2-p2": "Los niños especiales necesitan mas que un lugar donde vivir, necesitan muchísimo amor, ellos no decidieron nacer así, es el momento en que debemos estar mas unidos a ellos y mostrarles una perspectiva maravillosa del mundo.<br><br>",
-	"h-2-p3": "Ese es el origen de \"Amigos de Noel\", es mi iniciativa como madre poder ayudar a los niños especiales y enseñarle a las familias como cuidar de ellos, para que nunca se sientan solos y tengan una hermosa sonrisa siempre.<br><br>",
-	"h-2-p4": "Es grandiosa la satisfacción que se siente cuando un pequeño esta siendo feliz gracias a ti, el momento en el que te convierte en el mejor amigo de ese pequeño, en el que te conviertes en su héroe.",
-	"h-2-legend": "¡Tu también puedes ser su héroe!",
+	"h-2-fund": "Founder of <strong>Noel's Friends</strong>",
+	"h-2-p1": "I am the mother of the beautiful little Noel, since I was born I saw that GOD had a purpose with me and that was to become the hope of children like Noel.<br><br>",
+	"h-2-p2": "Special children need more than a place to live, they need a lot of love, they did not decide to be born like this, it is the moment when we must be more united with them and show them a wonderful perspective of the world.<br><br>",
+	"h-2-p3": "That is the origin of \"Noel's Friends\", it is my initiative as a mother to be able to help special children and teach families how to take care of them, so that they never feel alone and always have a beautiful smile.<br><br>",
+	"h-2-p4": "It is great the satisfaction that feels when a little one is being happy thanks to you, the moment in which he makes you the best friend of that little one, in which you become his hero.",
+	"h-2-legend": "You too can be their hero!",
 
 	"h-3-title": "Noel",
-	"h-3-p1": "Noel es  un pequeño que nació con un caso especial que ha afectado aspectos fundamentales en su vida.<br><br>",
-	"h-3-p2": "Pero a pesar de su condición siempre ha sido un niño muy contento, le gusta muchísimo la música y  jugar con sus amigos, aunque el no pueda expresar lo que siente con palabras, su rostro y su sonrisa demuestran tantas cosas de cómo es él.<br><br>",
-	"h-3-p3": "Es muy hermosa la forma en la visualiza el mundo a pesar de su situación, es algo muy admirable, ser amigo de Noel le puede cambia la vida a cualquiera porque es un niño que te contagia de su felicidad.<br><br>",
-	"h-3-legend": "¡Juntos somos más fuertes!",
+	"h-3-p1": "Noel is a little boy who was born with a special case that has affected fundamental aspects of his life.<br><br>",
+	"h-3-p2": "But despite his condition he has always been a very happy boy, he likes music and playing with his friends a lot, although he cannot express what he feels in words, his face and his smile demonstrate so many things about what he is like.<br><br>",
+	"h-3-p3": "It is very beautiful the way the world views it despite its situation, it is something very admirable, being a friend of Noel can change anyone's life because he is a child who infects you with his happiness.<br><br>",
+	"h-3-legend": "Together we are stronger!",
 
-	"colaboration-title": "¿Cómo colaborar con \"<strong>Amigos de Noel</strong>\"?",
-	"donation": "Donación",
-	"donation-content": "Ayúdanos a llevar la ayuda a ésas familias que lo necesitan,<br>ofrenda lo que nazca de tu corazón:",
+	"colaboration-title": "How to collaborate with \"<strong>Noel's Friends</strong>\"?",
+	"donation": "Donation",
+	"donation-content": "Help us to bring aid to those families who need it,<br>offer what is born from your heart:",
 	
-	"team": "Equipo",
-	"team-content": "Tú también puedes ser parte de esto. Si quieres colaborar con nuestras obras y unirte al equipo puedes contactarnos por medio de:",
+	"team": "Team",
+	"team-content": "You too can be part of this. If you want to collaborate with our works and join the team you can contact us through:",
 
-	"email-contact": "contacto@amigosdenoel.com",
+	"email-contact": "contact@amigosdenoel.com",
 
-	"footer-btn1": "Acerca de nosotros",
-	"footer-btn2": "Política de privacidad",
-	"footer-btn3": "Política de cookies"
+	"footer-btn1": "About us",
+	"footer-btn2": "Privacy Policy",
+	"footer-btn3": "Cookies policy",
+
+	"lang": "en",
+	"lang-alt": "es",
+	"home-alt": "/es"
 }

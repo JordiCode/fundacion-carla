@@ -1,23 +1,8 @@
-/*
-    Falta obtener el idioma del usuario con node-fetch con la api de getcountry with IP
-
-    Y, que el usuario cambie el idioma en los siguiente casos:
-        * Cuando el idioma obtenido con la api getcountry no esté en nuestra lista.
-        * Cuando el usuario decida cambiarlo con un botón en la web.
-
-*/
 const express = require('express')
 const path = require('path')
 const app = express()
 
 const i18n = require("i18n")
-// Vistas.
-app.set('views', __dirname + '/views')
-app.set('view engine', 'ejs')
-
-// Middleware
-app.use(express.static(path.join(__dirname, 'views')));
-app.set('trust proxy', true)
 
 // Configuración multilenguaje.
 i18n.configure({
@@ -27,34 +12,35 @@ i18n.configure({
     directory: __dirname + '/locales'
 })
 
+// Vistas.
+app.set('views', __dirname + '/views')
+app.set('view engine', 'ejs')
+
+// Middleware
+app.use(express.static(path.join(__dirname, 'views')))
+app.use(i18n.init)
+app.set('trust proxy', true)
+
 /* 
     ** Rutas
 */
-const getLang = (ip) => {
-    return ip
-}
+const rutas_gringas = require('./routes/routes.js')
+app.use('/', rutas_gringas)
 
-// Principal.
-app.get('/', (req, res) => {
-    const lang = getLang("ip")
-    res.render('home', {i18n})
+const rutas = require('./routes/rutas.js')
+app.use('/es/', rutas)
+
+// Error 404, redirecciona.
+app.get('/es/*', (req, res) => {
+    res.status(308);
+    res.redirect('/es')
 })
 
-// Privacidad.
-app.get('privacy', (req, res) => {
-    res.render('privacy')
-})
-
-// Acerca de nosotros.
-app.get('about', (req, res) => {
-    res.render('about')
-})
-
-/* Error 404, redirecciona.
+// Error 404, redirect.
 app.get('*', (req, res) => {
-    res.status(404);
+    res.status(308);
     res.redirect('/')
-})*/
+})
 
 const PORT = process.env.PORT || 3000;
 
