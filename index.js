@@ -42,11 +42,11 @@ app.get('*', (req, res) => {
     res.redirect('/')
 })
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000
 
 // Iniciar el servidor
 app.listen(PORT, () => {
     console.log("-----------------------------------");
     console.log(`Servidor encendido en el puerto ${PORT}
-    Link: http://localhost:${PORT}`);
-});
+    Link: http://localhost:${PORT}`)
+})
